@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playwrite HR", cursive;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+section p, img {
+    padding-top: 1.5rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+    color: #FF1D8E;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-home {
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #E1306C; 
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.5rem 2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button i {
+    font-size: 1rem; 
+    margin-right: 0.5rem;
+}
+
+form button:hover {
+    background-color: #E1306C;
+}
+
+#shadow-host-companion {
+    display: none;
+}
+
+footer #fa-instagram, #fa-whatsapp{
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 1rem; 
+    font-size: 2rem; 
+}
